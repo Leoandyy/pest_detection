@@ -1,0 +1,64 @@
+### 为害状
+
+- apple_healthy  				苹果健康       				1180     save
+- apple_scab_general        苹果黑星病一般           208      合并
+- apple_scab_serious        苹果黑星病严重            152     合并
+- apple_frogeye_spot        苹果灰斑病                    427     save
+- cedar_apple_rust_general  苹果雪松锈病一般   142     delete
+- cedar_apple_rust_serious  苹果雪松锈病严重    40       delete
+- cherry_healthy                 樱桃健康                        598    delete
+- cherry_powery_mildew_general  樱桃白粉病一般  116      delete
+- cherry_powery_mildew_serious   樱桃白粉病严重  110     delete
+- corn_healthy                    玉米健康                         376大量重复     delete
+- cercospora_zeaemaydis_tehon_general  玉米灰斑病一般 191     合并
+- cercospora_zeaemaydis_tehon_serious   玉米灰斑病严重  167    合并
+- puccinia_polysora_general  玉米锈病一般          483     合并
+- puccinia_polysora_serious  玉米锈病严重          355     合并
+- corn_curvularia_leaf_spot_general   玉米叶斑病一般  207     合并
+- corn_curvularia_leaf_spot_serious    玉米叶斑病严重  498    合并
+- maize_dwarf_mosaic_virus  玉米花叶病毒病     815 just
+- grape_healthy                    葡萄健康                   294    delete
+- grape_balck_rot_general  葡萄黑腐病一般       381    合并
+- grape_balck_rot_serious  葡萄黑腐病严重        462    合并
+- grape_black_measles_general葡萄轮斑病一般  503    合并
+- grape_black_measles_serious 葡萄轮斑病严重 419    合并
+- grape_leaf_blight_general 葡萄褐斑病一般        61      合并
+- grape_leaf_blight_serious 葡萄褐斑病严重         630   合并
+- citrus_healthy                   柑橘健康                      367大量重复    delete
+- citrus_greening_june_general 柑桔黄龙病一般 1828  合并
+- citrus_greening_june_serious 柑桔黄龙病严重 1799  合并
+- peach_healthy                  桃健康                         251  delete
+- peach_bacterial_spot_general 桃疮痂病一般   857  合并
+- peach_bacterial_spot_serious 桃疮痂病严重   770  合并
+- pepper_healthy               辣椒健康                      1025 save
+- pepper_scab_general    辣椒疮痂病一般           287  合并
+- pepper_scab_serious    辣椒疮痂病严重            377  合并
+- potato_healthy              马铃薯健康                    1430  save
+- potato_early_blight_general  马铃薯早疫病一般  203  合并
+- potato_early_blight_serious  马铃薯早疫病严重  510  合并
+- potato_late_blight_general    马铃薯晚疫病一般  251  合并
+- potato_late_blight_serious     马铃薯晚疫病一严重 446  合并
+- strawberry_healthy       草莓健康                      242  delete
+- strawberry_scorch_general   草莓叶枯病一般  192  合并
+- strawberry_scorch_serious   草莓叶枯病严重   586  合并
+- tomato_healthy             番茄健康                      1208  save
+- tomato_powdery_mildew_general  番茄白粉病一般  319  合并
+- tomato_powdery_mildew_serious  番茄白粉病严重  966  合并
+- tomato_bacterial_spot_general   delete
+- tomato_bacterial_spot_serious   delete
+- tomato_early_blight_general  番茄早疫病一般  251  合并
+- tomato_early_blight_serious  番茄早疫病严重  442  合并
+- tomato_late_blight_water_mold_general  番茄晚疫病菌一般  264  合并
+- tomato_late_blight_water_mold_serious  番茄晚疫病菌严重  1109  合并
+- tomato_leaf_mold_general  番茄叶霉病一般  325  合并
+- tomato_leaf_mold_serious  番茄叶霉病严重  336  合并
+- tomato_target_spot_bacterial_general  番茄斑点病一般  43  delete
+- tomato_target_spot_bacterial_serious  番茄斑点病一般  22  delete
+- toamto_septoria_leaf_spot_general  番茄斑枯病一般   421  合并
+- toamto_septoria_leaf_spot_serious    番茄斑枯病严重  807  合并
+- tomato_spider_mite_general  番茄红蜘蛛损伤一般  542  合并
+- tomato_spider_mite_serious    番茄红蜘蛛损伤严重  271  合并
+- tomato_YLCV_virus_general  番茄黄化曲叶病毒病一般 1414  合并
+- tomato_YLCV_virus_serious  番茄黄化曲叶病毒病严重  2473  合并
+- tomato_tomv  番茄花叶病毒病  261  delete
+

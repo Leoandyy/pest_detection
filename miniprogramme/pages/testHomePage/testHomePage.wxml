@@ -1,0 +1,55 @@
+<!--pages/testHomePage/testHomePage.wxml-->
+
+<!-- 背景 -->
+<view class="bg_container">
+    <image class="bg" src="https://s1.ax1x.com/2022/05/19/OHFYnS.jpg"></image>
+</view>
+
+<!-- 轮播图 -->
+<swiper 
+class="homePage_swiper_container"
+indicator-dots="true"
+autoplay="true"
+circular="true"
+interval="5000">
+    <swiper-item>
+        <view class="pic">
+            <image 
+            mode="aspectFill"
+            src="https://s1.ax1x.com/2022/05/17/OIEQTs.jpg">
+            </image>
+            <text>样例名称1</text>
+        </view>
+    </swiper-item>
+
+    <swiper-item>
+        <view class="pic">
+            <image 
+            mode="aspectFill"
+            src="https://s1.ax1x.com/2022/05/17/OIVGEd.jpg">
+            </image>
+            <text>样例名称2</text>
+        </view>
+
+    </swiper-item>
+
+    <swiper-item>
+        <view class="pic">
+            <image 
+            mode="aspectFill"
+            src="https://s1.ax1x.com/2022/05/17/OIVvrD.jpg">
+            </image>
+            <text>样例名称3</text>
+        </view>
+    </swiper-item>
+</swiper>
+
+
+<!-- 按钮 -->
+<view class="btn_container">
+    <button class="btn" bindtap="jumpToHomePage" style="position: relative; left: 2rpx; top: 272rpx"> 开始识别 </button>
+</view>
+
+
+
+

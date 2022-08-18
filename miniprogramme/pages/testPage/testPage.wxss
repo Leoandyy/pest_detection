@@ -1,0 +1,70 @@
+/* pages/testPage/testPage.wxss */
+.container_1 view{
+    width:100px;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.container_1 view:nth-child(1){
+    background-color: aqua;
+}
+.container_1 view:nth-child(2){
+    background-color:beige;
+}
+.container_1 view:nth-child(3){
+    background-color:brown;
+}
+.container_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_2 view{
+    width:100px;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+}
+.container_2 view:nth-child(1){
+    background-color: aqua;
+}
+.container_2 view:nth-child(2){
+    background-color:beige;
+}
+.container_2 view:nth-child(3){
+    background-color:brown;
+}
+.container_2{
+    height: 120px;
+    /*width:100px;*/
+    border:1px solid green;
+}
+
+.swiper_container{
+    height:100px;
+}
+
+.item{
+    /* height:100%;
+    line-height: 150px;
+    text-align: center;
+     */
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-item:nth-child(1) .item{
+    background-color: aqua;
+}
+
+swiper-item:nth-child(2) .item{
+    background-color:beige;
+}
+
+swiper-item:nth-child(3) .item{
+    background-color:brown;
+}

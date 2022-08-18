@@ -1,0 +1,41 @@
+<!--pages/showResult/showResult.wxml-->
+<view class="bg_container">
+    <image class="bg" src="https://s1.ax1x.com/2022/05/19/OHFYnS.jpg"></image>
+</view>
+
+<view class="container_result">
+    <view style="position: relative; left: 20rpx; top: 926rpx">123123</view>
+    
+    {{list.result[0].name}}
+    
+
+</view>
+
+
+<!-- <view class="pic_container">
+    <image class="pic" src="https://s1.ax1x.com/2022/05/28/XKuVzj.jpg" style="position: relative; left: 50rpx; top: 44rpx"></image>
+</view> -->
+
+<view class="pic_container">
+            <image 
+            class="result_pic"
+            src="https://s1.ax1x.com/2022/05/17/OIEQTs.jpg">
+            </image>
+            <!-- <text style="position: relative; left: 247rpx; top: 22rpx">样例名称1</text> -->
+</view>
+
+<view style="position: relative; left: 61rpx; top: 114rpx; width: 660rpx; height: 168rpx; display: block; box-sizing: border-box">
+    <text style="font-family:'Courier New', Courier, monospace, Times, serif;font-size: large;color:rgb(230, 230, 230);">
+    <!-- 识别结果：白背飞蝨
+    可信度：0.97
+
+    介绍：白背飞虱是同翅目、飞虱科动物，别名火蠓子，火旋。我国南至海南岛，北至黑龙江各稻区，东南亚各国均有分布。
+    结果展示 -->
+    {{list.result[0].name}}
+    可信度
+    {{list.result[0].score}}
+    </text>
+
+    
+
+</view>

@@ -1,0 +1,38 @@
+/* pages/showResult/showResult.wxss */
+
+/* 背景设置 */
+.bg{
+    /* 自适应宽高 */
+    width:100vw;
+    height: 100vh;
+    position:fixed; 
+    background-size:100% 100%;
+    /*z-index 较大的元素会覆盖较小的元素在上层进行显示*/
+    z-index: -1;
+    /* 通过滤镜增加毛玻璃效果 */
+    filter: blur(10rpx);
+  }
+
+.pic_container{
+    /* margin:200rpx; */
+    /* height:600rpx;
+    width: 750rpx; */
+    height:463rpx;
+    width: 308rpx;
+    top: 200rpx;
+    top: 30px;
+    left: 30px;
+    position: relative;
+}
+
+.result_pic{
+    height:100%;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30rpx;
+}
+
+
+

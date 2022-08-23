@@ -7,6 +7,8 @@ import torch
 from torchvision import transforms
 from model import resnet34
 from PIL import Image
+
+
 # import matplotlib.pyplot as plt
 
 
@@ -20,7 +22,8 @@ def main(path):
 
     # load image
     img_root = os.path.join(os.getcwd(), "..")
-    img_path = os.path.join(img_root, "data_set", "flower_data", path)
+    # img_path = os.path.join(img_root, "data_set", "flower_data", path)
+    img_path = path
     assert os.path.exists(img_path), "file: '{}' does not exist.".format(img_path)
     img = Image.open(img_path)
     # plt.imshow(img)
@@ -28,7 +31,7 @@ def main(path):
     img = torch.unsqueeze(img, dim=0)
 
     # read class_indict
-    json_path = './class_indices.json'
+    json_path = 'resNet34_insect_82.3.json'
     assert os.path.exists(json_path), "file: '{}' does not exist.".format(json_path)
 
     json_file = open(json_path, "r")
@@ -58,4 +61,5 @@ def main(path):
 
 
 if __name__ == '__main__':
-    main("44.png")
+    main('0a153f6dcd13e3db64b7872a178ed848.jpg')
+    # main("44.png")
